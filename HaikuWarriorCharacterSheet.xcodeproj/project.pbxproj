@@ -7,21 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0727451D77796D007B7B34 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0727441D77796D007B7B34 /* Character.swift */; };
+		FD3C609A1D859F30009F64D6 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C60991D859F30009F64D6 /* UIFont+Extensions.swift */; };
+		FD79B8D71D78AF2A00A0FA74 /* CharacterSheetViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B8D61D78AF2A00A0FA74 /* CharacterSheetViewController+Layout.swift */; };
+		FD79B8D91D78B45500A0FA74 /* CharacterSheetViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B8D81D78B45500A0FA74 /* CharacterSheetViewController+TableViewDelegate.swift */; };
+		FD8324E21D78BCED0087E7F2 /* CharacterStatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324E11D78BCED0087E7F2 /* CharacterStatTableViewCell.swift */; };
+		FD8324E41D78EA960087E7F2 /* WeaponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324E31D78EA960087E7F2 /* WeaponTableViewCell.swift */; };
+		FD8324E61D78ED430087E7F2 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324E51D78ED430087E7F2 /* Weapon.swift */; };
+		FD8324E81D78F3330087E7F2 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324E71D78F3330087E7F2 /* String+Extensions.swift */; };
+		FD8324ED1D78F5F10087E7F2 /* InventoryViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324EC1D78F5F10087E7F2 /* InventoryViewController+Layout.swift */; };
+		FD8324EF1D78F6420087E7F2 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324EE1D78F6420087E7F2 /* Inventory.swift */; };
+		FD8324F11D78F7CF0087E7F2 /* InventoryViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324F01D78F7CF0087E7F2 /* InventoryViewController+TableViewDelegate.swift */; };
+		FD8324F31D78F8790087E7F2 /* InventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324F21D78F8790087E7F2 /* InventoryTableViewCell.swift */; };
+		FD8324F61D79016A0087E7F2 /* ShopViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324F51D79016A0087E7F2 /* ShopViewController+Layout.swift */; };
+		FD8324F81D7901760087E7F2 /* ShopViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324F71D7901760087E7F2 /* ShopViewController+TableViewDelegate.swift */; };
+		FD8324FA1D7902580087E7F2 /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324F91D7902580087E7F2 /* ShopTableViewCell.swift */; };
+		FD8324FC1D79030D0087E7F2 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8324FB1D79030D0087E7F2 /* Shop.swift */; };
 		FD9A19EF1D7774F900F82E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A19EE1D7774F900F82E2A /* AppDelegate.swift */; };
-		FD9A19F11D7774F900F82E2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A19F01D7774F900F82E2A /* ViewController.swift */; };
 		FD9A19F41D7774F900F82E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9A19F21D7774F900F82E2A /* Main.storyboard */; };
 		FD9A19F61D7774F900F82E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9A19F51D7774F900F82E2A /* Assets.xcassets */; };
 		FD9A19F91D7774F900F82E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9A19F71D7774F900F82E2A /* LaunchScreen.storyboard */; };
+		FD9A1A011D77752D00F82E2A /* CharacterSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A1A001D77752D00F82E2A /* CharacterSheetViewController.swift */; };
+		FD9A1A031D77754400F82E2A /* HaikuWarriorTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A1A021D77754400F82E2A /* HaikuWarriorTabBarController.swift */; };
+		FD9A1A051D77755600F82E2A /* HaikuWarriorNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A1A041D77755600F82E2A /* HaikuWarriorNavigationController.swift */; };
+		FD9A1A071D77756700F82E2A /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A1A061D77756700F82E2A /* InventoryViewController.swift */; };
+		FD9A1A091D77756F00F82E2A /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A1A081D77756F00F82E2A /* ShopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD0727441D77796D007B7B34 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FD3C60991D859F30009F64D6 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		FD79B8D41D78A7D200A0FA74 /* HWPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HWPlayground.playground; sourceTree = "<group>"; };
+		FD79B8D61D78AF2A00A0FA74 /* CharacterSheetViewController+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CharacterSheetViewController+Layout.swift"; sourceTree = "<group>"; };
+		FD79B8D81D78B45500A0FA74 /* CharacterSheetViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CharacterSheetViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		FD8324E11D78BCED0087E7F2 /* CharacterStatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterStatTableViewCell.swift; sourceTree = "<group>"; };
+		FD8324E31D78EA960087E7F2 /* WeaponTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponTableViewCell.swift; sourceTree = "<group>"; };
+		FD8324E51D78ED430087E7F2 /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		FD8324E71D78F3330087E7F2 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		FD8324EC1D78F5F10087E7F2 /* InventoryViewController+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InventoryViewController+Layout.swift"; sourceTree = "<group>"; };
+		FD8324EE1D78F6420087E7F2 /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		FD8324F01D78F7CF0087E7F2 /* InventoryViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InventoryViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		FD8324F21D78F8790087E7F2 /* InventoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewCell.swift; sourceTree = "<group>"; };
+		FD8324F51D79016A0087E7F2 /* ShopViewController+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShopViewController+Layout.swift"; sourceTree = "<group>"; };
+		FD8324F71D7901760087E7F2 /* ShopViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShopViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		FD8324F91D7902580087E7F2 /* ShopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
+		FD8324FB1D79030D0087E7F2 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		FD9A19EB1D7774F900F82E2A /* HaikuWarriorCharacterSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaikuWarriorCharacterSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9A19EE1D7774F900F82E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD9A19F01D7774F900F82E2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD9A19F31D7774F900F82E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD9A19F51D7774F900F82E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD9A19F81D7774F900F82E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD9A19FA1D7774F900F82E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9A1A001D77752D00F82E2A /* CharacterSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSheetViewController.swift; sourceTree = "<group>"; };
+		FD9A1A021D77754400F82E2A /* HaikuWarriorTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaikuWarriorTabBarController.swift; sourceTree = "<group>"; };
+		FD9A1A041D77755600F82E2A /* HaikuWarriorNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaikuWarriorNavigationController.swift; sourceTree = "<group>"; };
+		FD9A1A061D77756700F82E2A /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		FD9A1A081D77756F00F82E2A /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +76,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD0727431D777953007B7B34 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD79B8D51D78AF1600A0FA74 /* CharacterSheet */,
+				FD8324EB1D78F5A00087E7F2 /* Inventory */,
+				FD8324F41D7901560087E7F2 /* Shop */,
+				FD9A1A021D77754400F82E2A /* HaikuWarriorTabBarController.swift */,
+				FD9A1A041D77755600F82E2A /* HaikuWarriorNavigationController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FD79B8D51D78AF1600A0FA74 /* CharacterSheet */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A1A001D77752D00F82E2A /* CharacterSheetViewController.swift */,
+				FD79B8D81D78B45500A0FA74 /* CharacterSheetViewController+TableViewDelegate.swift */,
+				FD79B8D61D78AF2A00A0FA74 /* CharacterSheetViewController+Layout.swift */,
+			);
+			name = CharacterSheet;
+			sourceTree = "<group>";
+		};
+		FD8324E01D78BC6F0087E7F2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FD8324E11D78BCED0087E7F2 /* CharacterStatTableViewCell.swift */,
+				FD8324E31D78EA960087E7F2 /* WeaponTableViewCell.swift */,
+				FD8324F21D78F8790087E7F2 /* InventoryTableViewCell.swift */,
+				FD8324F91D7902580087E7F2 /* ShopTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		FD8324E91D78F5310087E7F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD0727441D77796D007B7B34 /* Character.swift */,
+				FD8324EE1D78F6420087E7F2 /* Inventory.swift */,
+				FD8324E51D78ED430087E7F2 /* Weapon.swift */,
+				FD8324FB1D79030D0087E7F2 /* Shop.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FD8324EA1D78F5370087E7F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD8324E71D78F3330087E7F2 /* String+Extensions.swift */,
+				FD3C60991D859F30009F64D6 /* UIFont+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		FD8324EB1D78F5A00087E7F2 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A1A061D77756700F82E2A /* InventoryViewController.swift */,
+				FD8324EC1D78F5F10087E7F2 /* InventoryViewController+Layout.swift */,
+				FD8324F01D78F7CF0087E7F2 /* InventoryViewController+TableViewDelegate.swift */,
+			);
+			name = Inventory;
+			sourceTree = "<group>";
+		};
+		FD8324F41D7901560087E7F2 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A1A081D77756F00F82E2A /* ShopViewController.swift */,
+				FD8324F51D79016A0087E7F2 /* ShopViewController+Layout.swift */,
+				FD8324F71D7901760087E7F2 /* ShopViewController+TableViewDelegate.swift */,
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
 		FD9A19E21D7774F900F82E2A = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +169,15 @@
 			isa = PBXGroup;
 			children = (
 				FD9A19EE1D7774F900F82E2A /* AppDelegate.swift */,
-				FD9A19F01D7774F900F82E2A /* ViewController.swift */,
+				FD8324E91D78F5310087E7F2 /* Models */,
+				FD8324EA1D78F5370087E7F2 /* Extensions */,
+				FD8324E01D78BC6F0087E7F2 /* TableViewCells */,
+				FD0727431D777953007B7B34 /* View Controllers */,
 				FD9A19F21D7774F900F82E2A /* Main.storyboard */,
 				FD9A19F51D7774F900F82E2A /* Assets.xcassets */,
 				FD9A19F71D7774F900F82E2A /* LaunchScreen.storyboard */,
 				FD9A19FA1D7774F900F82E2A /* Info.plist */,
+				FD79B8D41D78A7D200A0FA74 /* HWPlayground.playground */,
 			);
 			path = HaikuWarriorCharacterSheet;
 			sourceTree = "<group>";
@@ -137,8 +255,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9A19F11D7774F900F82E2A /* ViewController.swift in Sources */,
+				FD8324F11D78F7CF0087E7F2 /* InventoryViewController+TableViewDelegate.swift in Sources */,
+				FD79B8D91D78B45500A0FA74 /* CharacterSheetViewController+TableViewDelegate.swift in Sources */,
+				FD8324E81D78F3330087E7F2 /* String+Extensions.swift in Sources */,
+				FD8324E41D78EA960087E7F2 /* WeaponTableViewCell.swift in Sources */,
+				FD9A1A011D77752D00F82E2A /* CharacterSheetViewController.swift in Sources */,
+				FD9A1A051D77755600F82E2A /* HaikuWarriorNavigationController.swift in Sources */,
+				FD8324F31D78F8790087E7F2 /* InventoryTableViewCell.swift in Sources */,
+				FD79B8D71D78AF2A00A0FA74 /* CharacterSheetViewController+Layout.swift in Sources */,
+				FD8324E61D78ED430087E7F2 /* Weapon.swift in Sources */,
+				FD0727451D77796D007B7B34 /* Character.swift in Sources */,
+				FD8324F61D79016A0087E7F2 /* ShopViewController+Layout.swift in Sources */,
+				FD9A1A091D77756F00F82E2A /* ShopViewController.swift in Sources */,
+				FD3C609A1D859F30009F64D6 /* UIFont+Extensions.swift in Sources */,
+				FD9A1A071D77756700F82E2A /* InventoryViewController.swift in Sources */,
 				FD9A19EF1D7774F900F82E2A /* AppDelegate.swift in Sources */,
+				FD8324E21D78BCED0087E7F2 /* CharacterStatTableViewCell.swift in Sources */,
+				FD8324FA1D7902580087E7F2 /* ShopTableViewCell.swift in Sources */,
+				FD8324EF1D78F6420087E7F2 /* Inventory.swift in Sources */,
+				FD9A1A031D77754400F82E2A /* HaikuWarriorTabBarController.swift in Sources */,
+				FD8324FC1D79030D0087E7F2 /* Shop.swift in Sources */,
+				FD8324ED1D78F5F10087E7F2 /* InventoryViewController+Layout.swift in Sources */,
+				FD8324F81D7901760087E7F2 /* ShopViewController+TableViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DBJ4K93CJ6;
 				INFOPLIST_FILE = HaikuWarriorCharacterSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.songsaboutsnow.HaikuWarriorCharacterSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DBJ4K93CJ6;
 				INFOPLIST_FILE = HaikuWarriorCharacterSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.songsaboutsnow.HaikuWarriorCharacterSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +440,7 @@
 				FD9A19FF1D7774F900F82E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

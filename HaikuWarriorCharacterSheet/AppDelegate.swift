@@ -16,6 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let characterVC = CharacterSheetViewController()
+        let shopVC = ShopViewController()
+        let inventoryVC = InventoryViewController()
+        
+        let tabBarVC = HaikuWarriorTabBarController()
+        tabBarVC.viewControllers = [inventoryVC, characterVC, shopVC]
+        tabBarVC.selectedViewController = shopVC
+        tabBarVC.selectedViewController = characterVC
+        
+        let navVC = HaikuWarriorNavigationController(rootViewController: tabBarVC)
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navVC
+        window?.makeKeyAndVisible()
         return true
     }
 
